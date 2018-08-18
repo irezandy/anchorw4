@@ -1,6 +1,5 @@
 function hitungHuruf(kata) {
     var arr = kata.split(' ');
-    
     for (var i in arr) {
       for (var j = 0; j < arr[i].length; j++) {
         if (arr[i].lastIndexOf(arr[i][j]) !== arr[i].indexOf(arr[i][j])) {
