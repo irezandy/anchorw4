@@ -32,7 +32,6 @@ function fpb(angka1, angka2) {
           return arr1[a];
         }
       }
-      
       if (find){
          break; 
       }
